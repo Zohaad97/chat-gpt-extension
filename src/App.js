@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 import Sidebar from './sidebar';
 import SidebarMenu from 'react-bootstrap-sidebar-menu';
+import Content from './content';
 function App() {
   return (
     <div className="App">
@@ -15,8 +16,7 @@ function App() {
             <Sidebar />
           </div>
           <div class="col-sm-9 min-vh-100">
-            <h2>Content</h2>
-            <p>This is the content area.</p>
+            <Content />
           </div>
         </div>
       </div>
